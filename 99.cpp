@@ -1,5 +1,5 @@
 #include<iostream>
-
+// write a progrma to caluclate the factorial of a number by using reucrsion
 using namespace std;
 
 int f(int n) {
