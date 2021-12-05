@@ -1,5 +1,5 @@
 #include<iostream>
-// WAP to find the first occurenct of an array using recurion
+// wap to find the target from the first occurence using recursion
 using namespace std;
 
 int f(int* A, int n, int t, int i) {
