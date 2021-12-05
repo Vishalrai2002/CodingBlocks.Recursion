@@ -5,6 +5,7 @@ using namespace std;
 string map[] = {"zero", "one", "two", "three", 
                 "four", "five", "six", "seven",
                 "eight", "nine"};
+// first code print spelling in reverse order
 
 void f1(int n) {
 	// base case
@@ -24,6 +25,7 @@ void f1(int n) {
 	// 3. ask your friend to print the spelling of n/10 in reverse
 	f1(n/10);
 }
+// second code print spelling in correct order
 
 void f2(int n) {
 	// base case
