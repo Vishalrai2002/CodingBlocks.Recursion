@@ -2,6 +2,7 @@
 #include<cstring>
 // Convert a string to an integer using recusion
 // you can also do it by using stoi inbuilt function in c++
+// cout<<stoi("123")<<endl;
 using namespace std;
 
 int f(char* str, int i) {
