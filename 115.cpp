@@ -32,6 +32,8 @@ void replacepi(string s){
     if (s[0]=='p' && s[1]=='i'){
         cout<<"3.14";
         replacepi(s.substr(2)); // further function is called by this we use 2 because after two character p and i we find the substr or "call for rest of the string"
+	    		// we use 2 because in pi have 2 space but we need 4 space to store 3.14 in the given string
+
     }
     else { 
         cout<<s[0];
