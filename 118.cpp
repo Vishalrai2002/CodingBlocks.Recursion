@@ -12,7 +12,7 @@ Example
 #include<iostream>
 #include<cstring>
 #include<set>
-
+// Set is a container
 using namespace std;
 
 void generatePermutations(char* inp, int i, set<string>& s) {
@@ -43,7 +43,7 @@ int main() {
 	set<string> s;
 
 	generatePermutations(inp, 0, s);
-
+// for each loop
 	for(auto x : s) {
 		cout << x << endl;
 	}
