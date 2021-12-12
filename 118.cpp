@@ -15,7 +15,7 @@ Example
 // Set is a container
 using namespace std;
 
-void generatePermutations(char* inp, int i, set<string>& s) {
+void generatePermutations(char* inp, int i, set<string>& s) { // set string is passed by refrence so we use "&" here
 
 	// base case
 	if(inp[i] == '\0') {
