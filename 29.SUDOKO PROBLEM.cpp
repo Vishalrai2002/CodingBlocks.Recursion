@@ -24,7 +24,8 @@ bool canPlaceDigit(int grid[][9], int n, int i, int j, int d) {
 			return false;
 		}
 	}
-
+// RN=  ROOTN
+	//// FOR CHECKING SUBGRID
 	int rn = sqrt(n);
 
 	int sx = (i/rn) * rn; // row no. of the 1st element of the subgrid of which 
