@@ -19,6 +19,7 @@ using namespace std;
 bool canPlaceDigit(int grid[][9], int n, int i, int j, int d) {
 
 	for(int k=0; k<n; k++) {
+		     //  ROW             COLUMNS
 		if(grid[i][k] == d || grid[k][j] == d) {
 			return false;
 		}
